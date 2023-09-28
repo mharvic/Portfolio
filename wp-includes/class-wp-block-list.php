@@ -210,4 +210,5 @@ class WP_Block_List implements Iterator, ArrayAccess, Countable {
 	public function count() {
 		return count( $this->blocks );
 	}
+
 }
